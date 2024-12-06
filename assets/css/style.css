@@ -22,7 +22,8 @@ body::before {
 } */
 
 
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -558,9 +559,9 @@ section .container {
   background: rgba(255, 255, 255, 0.12);
 }
 
-.skills .icon-box img{
+.skills .icon-box img {
   width: 30px;
-   height: 30px;
+  height: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -1025,11 +1026,11 @@ section .container {
   background: rgba(255, 255, 255, 0.08);
 }
 
-.contact .info-box  a {
+.contact .info-box a {
   color: #FFFFFF;
 }
 
-.contact .info-box  a:hover {
+.contact .info-box a:hover {
   color: #7955d8;
 }
 
@@ -1220,11 +1221,36 @@ section .container {
 }
 
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   .margin {
     margin-top: 9rem !important;
   }
-  .margin-similar{
+
+  .margin-similar {
     margin-top: 6rem !important;
   }
+}
+
+.skills .ri-html5-fill {
+  color: #F16529;
+}
+
+.skills .ri-css3-fill {
+  color: #264de4;
+}
+
+.skills .ri-javascript-fill {
+  color: #F0DB4F;
+}
+
+.skills .ri-bootstrap-fill {
+  color: #8462e2;
+}
+
+.skills .ri-database-2-line {
+  color: #ffa76e;
+}
+
+.skills .ri-github-fill {
+  color: #FFFFFF;
 }
